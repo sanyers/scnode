@@ -1,0 +1,8 @@
+# ---> VisualStudioCode
+.settings
+
+node_modules/
+package-lock.json
+logs/file
+logs/list
+db/centerdb/data/list/

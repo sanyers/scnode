@@ -1,0 +1,31 @@
+{
+  "name": "scnode",
+  "version": "0.0.2",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "script": "main.js",
+  "instances": 1,
+  "exec_mode": "cluster",
+  "error_file": "./logs/file/err.log",
+  "out_file": "./logs/file/out.log",
+  "merge_logs": true,
+  "log_date_format": "YYYY-MM-DD HH:mm:ss",
+  "max_memory_restar": "500M",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.2",
+    "ip": "^1.1.5",
+    "lib": "file:lib",
+    "mysql": "^2.16.0",
+    "node-uuid": "^1.4.8",
+    "redis": "^2.8.0",
+    "seneca": "^3.8.4",
+    "urlencode": "^1.1.0",
+    "ws": "^6.1.3"
+  }
+}

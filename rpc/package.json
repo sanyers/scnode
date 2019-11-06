@@ -1,0 +1,11 @@
+{
+    "script": "./rpc/rpc.js",
+    "version": "1.0.0",
+    "instances": 1,
+    "exec_mode": "cluster",
+    "error_file": "./logs/file/err.log",
+    "out_file": "./logs/file/out.log",
+    "merge_logs": true,
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "max_memory_restar": "200M"
+}
